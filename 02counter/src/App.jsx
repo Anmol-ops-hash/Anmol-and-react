@@ -10,10 +10,10 @@ function App() {
   // let counter = 15;
   const addValue = () => {
     // console.log("value add", Math.random());
-    console.log("clicked", counter);
-    counter = counter + 1;
+    // console.log("clicked", counter);
+    // counter = counter + 1;
     // setCounter(counter +1)
-    setCounter(counter);
+    setCounter(counter + 1);
   };
 
   const removeValue = () => {
